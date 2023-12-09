@@ -3,7 +3,7 @@ const { AdaptiveCards } = require("@microsoft/adaptivecards-tools");
 const { CardFactory, MessageFactory } = require("botbuilder");
 
 class greetCommandHandler {
-  triggerPatterns = "Hai Bot";
+  triggerPatterns = "Hi Creatio";
 
   async handleCommandReceived(context, message) {
     console.log(`Bot received message: ${message.text}`);

@@ -11,12 +11,12 @@
         "type": "TextBlock",
         "weight": "bolder",
         "wrap": true,
-        "text": "I'm your **Creatio** virtual assistant. I can help with information about our services."
+        "text": "I'm your **Creatio** virtual assistant. I can help you with the required information."
     },
     {
         "type": "TextBlock",
         "wrap": true,
-        "text":"You can get started by selecting one of the following topics that best describes your need."
+        "text":"You can get started by selecting any of the actions as you wish."
     },
     {
         "type": "ActionSet",
@@ -33,8 +33,8 @@
         "actions": [
           {
                 "type": "Action.OpenUrl",
-                "title": "Visit Us",
-                "url": "https://www.creatio.com"
+                "title": "Creatio",
+                "url": "https://059005-sales-enterprise.creatio.com"
                 }
         ]
     }

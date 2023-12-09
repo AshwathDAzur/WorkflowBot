@@ -1,0 +1,13 @@
+{
+    "@context": "http://schema.org/",
+    "@type": "LocalBusiness",
+    "name": "User UnAuthorized",
+    "url": "https://059005-sales-enterprise.creatio.com",
+    "authcontent" : {
+        "content1" : "User UnAuthorized",
+        "content2" : "user UnAuthorized"
+    },
+    "image": "https://cyberhoot.com/wp-content/uploads/2019/12/access_denied.png",
+    "imageAlt": "UnAuthorized User"
+}
+  

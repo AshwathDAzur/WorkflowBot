@@ -20,6 +20,11 @@ const authService = {
         try {
             const response = await axios.post(url, requestBody, { headers });
             const responseheaders = response.headers;
+           if(response.data.Code == 1)
+           {
+            console.log(response.data.Message);
+            return "Authorization Error";
+           }
             const setcookie = responseheaders['set-cookie'];
             return setcookie;
         } catch (error) {
